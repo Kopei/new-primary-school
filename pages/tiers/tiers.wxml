@@ -1,0 +1,6 @@
+<view>
+  <map class="mapstyle" id="schoolMap" latitude="{{mapParams.latitude}}" longitude="{{mapParams.longitude}}" 
+  markers="{{mapParams.markers}}" bindmarkertap="markerTap" bindabilitysuccess="success" show-location></map>
+  <!-- <map id="schoolMap" latitude="{{mapParams.latitude}}" longitude="{{mapParams.longitude}}"  bindmarkertap="markerTap"></map> -->
+
+</view>
